@@ -3,11 +3,12 @@ package com.apiwat.springMvc;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class DemoApplicationTests {
+public class DemoApplicationTests extends SpringBootServletInitializer{
 
 	@Test
 	public void contextLoads() {
